@@ -1,0 +1,193 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+/*------side bar-----*/
+.sidebar{
+    background-color: lightseagreen;
+    float: left;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 0 15px black;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+.sidebar a{
+    text-decoration: none;
+    display: block;
+    color: aqua;
+    padding: 15px 25px;
+    font-size: 18px;
+ }
+.sidebar img{
+    width: 150px;
+    height: 150px;
+    border: 10px solid lightseagreen;
+    border-radius: 50%;
+    box-shadow: 0 0 15px black;
+    margin-top: 100px;
+}
+/*---about section---*/
+#about-section{
+margin-left: 300px;
+    padding: 20px;
+}
+#about-section h1{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 80px;
+    margin: 120px 0 0 0;
+}
+#fname{
+color: #b51a35;
+    text-shadow: 0 0 5px black;
+}
+#lname{
+color: #0b5fde;
+    text-shadow: 0 0 5px black;
+}
+#about-section h2{
+    font-family: 'Nunito', sans-serif;
+    font-size: 35px;
+    margin-top: 0;
+}
+#about-section p{
+    color: gray;
+    font-size: 25px;
+    margin-bottom: 110px;
+}
+/*------experience section------*/
+#experience-section{
+margin-left: 300px;
+    padding: 20px;
+}
+.main-heading{
+    font-family: 'Exo 2', sans-serif;
+    text-shadow:  0 0 5px black;
+    font-size: 50px;
+    margin-top: 10px;
+}
+.experience-article h2{
+    font-family: 'Courgette', cursive;
+    font-size: 25px;
+}
+.experience-article p{
+    color: gray;
+    font-size: 19px;
+}
+.experience-article{
+    width: 250px;
+    display: inline-block;
+    box-shadow: 0 0 15px lightseagreen;
+    text-align: center;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.experience-article:hover{
+    transform: perspective(500px) rotateY(-20deg);
+}
+.experience-article-button{
+    background-color: lightseagreen;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: white;
+    font-size: 18px;
+    border: 5px solid white;
+    padding: 10px 25px;
+    box-shadow: 0 0 5px black;
+}
+/*----education section-----*/
+#education-section{
+    margin-left: 300px;
+    padding: 20px;
+}
+.education-article{
+    margin: 20px;
+    box-shadow: 0 0 15px lightseagreen;
+    border-radius: 10px;
+    padding: 10px;
+    transition: all 0.5s;
+}
+.education-article:hover{
+    transform: perspective(500px) rotateX(20deg);
+}
+.education-article h2{
+    font-family: 'Lobster', cursive;
+    color: lightseagreen;
+}
+.education-article p{
+    color: gray;
+    font-size: 18px;
+}
+/*----skills section -----*/
+#skills-section{
+    margin-left: 300px;
+    padding: 20px;
+}
+.skills-article{
+    margin: 20px;
+    box-shadow: 0 0 15px lightseagreen;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.skills-article:hover{
+    transform: perspective(400px) rotateX(-10deg);
+}
+.skills-article h2{
+    font-family: 'Lobster', cursive;
+    color: lightseagreen;
+}
+.skills-article p{
+    color: gray;
+    font-size: 18px;
+}
+.fab, .fas{
+ margin: 10px;
+}
+.fab:hover , .fas:hover{
+    color: lightseagreen;
+}
+/*----Interests section---*/
+#interests-section{
+    margin-left: 300px;
+    padding: 20px;
+}
+/*----Certification section---*/
+#cert-section{
+    margin-left: 300px;
+    padding: 20px;
+}
+.cert-text{
+    font-size: 18px;
+    color: gray;
+    margin-bottom: 50px;
+}
+.cert-article{
+    padding: 10px;
+    box-shadow: 0 0 15px lightseagreen;
+    border-radius: 10px;
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    transition: all 0.5s;
+}
+.cert-article:hover{
+    background-color: lightseagreen;
+    color: white;
+    transform: perspective(400px) translateY(-20px);
+}
+.cert-article p{
+    font-size: 18px;
+}
+.cert-article img{
+    width: 100px;
+    height: 100px;
+    margin-top: -50px;
+
+    border-radius: 50%;
+}

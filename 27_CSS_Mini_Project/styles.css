@@ -1,0 +1,207 @@
+/* Add Your Styles Here */
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+
+}
+
+/* ------------------- Main Header ----------------- */
+.main-header{
+    background-image: url("images/technology.JPG");
+    color: white;
+    padding: 15px;
+    background-size: cover;
+    text-align: right;
+}
+
+/* ------------------- Main Navigation ----------------- */
+.main-nav{
+    background-color: black;
+    padding: 5px;
+}
+.main-nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    display: inline-block;
+}
+.main-nav a:hover{
+    background-color: #778262;
+}
+.main-nav a.active{
+    background-color: #61ce5c;
+}
+
+/* ----------------- Home News Section -------------- */
+.home-news-section{
+    width: 1100px;
+    margin-left: 150px;
+}
+.home-news-article{
+    border: 2px solid black;
+    width: 330px;
+    height: 500px;
+    text-align: center;
+    float: left;
+    margin: 5px;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.home-news-article:hover{
+    width: 340px;
+    box-shadow: 0 0 15px black;
+}
+.home-news-article img{
+    width: inherit;
+}
+.home-news-text{
+    padding: 10px;
+}
+
+/* ---------------- Break ------------ */
+.break{
+    clear: both;
+}
+.main-news-section{
+    width: 1100px;
+    margin: auto;
+}
+.main-news-article h2{
+    color: white;
+    background: linear-gradient(to right , forestgreen,black,forestgreen);
+    text-align: center;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 0 0 15px black;
+}
+.zoom{
+    width: 600px;
+    height: 350px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0 0 15px black;
+    overflow: hidden;
+}
+.zoom img{
+    width: inherit;
+    height: inherit;
+    border-radius: 15px;
+    transition: all 1s;
+}
+.zoom:hover img{
+    transform: scale(1.2,1.2);
+}
+.main-footer{
+    background: linear-gradient(to right, #788364 , black , #788364);
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+.gallery-section{
+    margin-left: 10px;
+}
+.gallery-article{
+    border: 2px solid black;
+    width: 300px;
+    display: inline-block;
+    margin: 5px;
+    text-align: center;
+    padding: 7px;
+    border-radius: 10px;
+}
+.gallery-article:hover{
+    box-shadow: 0 0 15px black;
+}
+.gallery-zoom{
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.gallery-zoom img{
+    width: inherit;
+    height: inherit;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.gallery-zoom:hover img{
+    transform: scale(1.2,1.2);
+}
+.gallery-article figcaption{
+    padding: 10px;
+}
+.about-section{
+    width: 1100px;
+    margin: auto;
+}
+.about-article{
+    background: black url("images/image5.jpeg") no-repeat scroll bottom;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px black;
+}
+.company-images{
+    text-align: center;
+}
+.company-images img{
+    width: 250px;
+    height: 150px;
+    border-radius: 15px;
+    margin: 5px;
+    box-shadow: 0 0 15px black;
+}
+.contact{
+    background: url("../img/image5.jpeg") no-repeat fixed top left;
+
+}
+.contact-div{
+    width: 250px;
+    text-align: center;
+    margin:  auto;
+    box-shadow: 0 0 15px black;
+    border-radius: 10px;
+
+}
+.contact-div h2{
+    color: white;
+    margin-top: 10px;
+}
+input[type='text'],
+input[type='email']
+{
+    text-align: center;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    height: 35px;
+    background-color: transparent;
+    color: white;
+    border-bottom: 3px solid #788364;
+    width: 200px;
+}
+textarea{
+    border: #788364;
+    background-color: transparent;
+    box-shadow: 0 0 20px black;
+    border-radius: 5px;
+    outline: none;
+    font-size: 12px;
+}
+::placeholder{
+    color: white;
+}
+#contanctid{
+    background-color: #788364;
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding: 8px 35px;
+    margin: 15px 0 20px 0;
+    border-radius: 50px;
+}
+#contanctid:hover{
+    background-color: #00aeef;
+    box-shadow: 0 0 10px black;
+}
